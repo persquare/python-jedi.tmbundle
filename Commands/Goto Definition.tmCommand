@@ -22,7 +22,7 @@ completion.goto_definition()
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>@D</string>
+	<string>~@j</string>
 	<key>name</key>
 	<string>Jump to definition</string>
 	<key>outputCaret</key>
