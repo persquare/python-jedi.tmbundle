@@ -13,7 +13,7 @@ support_path = env['TM_BUNDLE_SUPPORT']
 sys.path.insert(0, support_path)
 from textmate import dialog, tm_query, plist, exit_codes
 
-sys.path.insert(0, support_path + b'/jedi')
+# sys.path.insert(0, support_path + b'/jedi')
 import jedi
 jedi.settings.case_insensitive_completion = False
 jedi.settings.add_bracket_after_function = True
