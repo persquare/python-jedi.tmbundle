@@ -65,7 +65,7 @@ def show_signature():
         for s in signatures:
             args = [p.get_code().replace('\n', '') for p in
                         getattr(s, 'params', None) if p]
-            args = ", ".join(args)
+            args = " ".join(args)
             text.append("{call_name}({args})".format(
                 call_name=s.call_name, args=args))
     dialog.tooltip("\n".join(text))
