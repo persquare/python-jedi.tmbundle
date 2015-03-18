@@ -83,7 +83,7 @@ def goto_definition():
     if definitions:
         definition = definitions[0]
         path = definition.module_path
-        if definition.in_builtin_module:
+        if definition.in_builtin_module():
             exit_codes.exit_show_tool_tip('Cannot jump to builtin module')
         line = str(definition.line or 1)
         column = str(definition.column)
